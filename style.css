@@ -280,3 +280,14 @@ form input[type="submit"]:hover {
         margin: 5px 0;
     }
 }
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
