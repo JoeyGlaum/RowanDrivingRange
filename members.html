@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Membership | Rowan Driving Range</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Rowan Driving Range</h1>
+    <h2>Practice. Improve. Enjoy the Game.</h2>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="buckets.html">Golf Balls</a>
+    <a href="rentals.html">Rentals & Extras</a>
+    <a href="members.html">Membership</a>
+    <a href="help.html">Help</a>
+</nav>
+
+<main>
+
+    <section>
+
+        <h2>Driving Range Membership Form</h2>
+
+        <p>
+            Please complete the form below to register as a member.
+        </p>
+
+        <form action="#" method="post">
+
+            <!-- First Name -->
+            <label for="firstName">First Name:</label>
+            <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                required
+            >
+
+            <!-- Last Name -->
+            <label for="lastName">Last Name:</label>
+            <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                required
+            >
+
+            <!-- Email -->
+            <label for="email">Email Address:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+            <!-- Banner ID -->
+            <label for="bannerID">Banner ID:</label>
+            <input
+                type="text"
+                id="bannerID"
+                name="bannerID"
+                required
+            >
+
+            <!-- Password Entry -->
+            <label for="password">Create Password:</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                required
+            >
+
+            <!-- Datalist -->
+            <label for="major">Major:</label>
+            <input
+                list="majors"
+                id="major"
+                name="major"
+                placeholder="Choose or enter your major"
+            >
+
+            <datalist id="majors">
+                <option value="Computing and Informatics">
+                <option value="Computer Science">
+                <option value="Engineering">
+                <option value="Business">
+                <option value="Education">
+                <option value="Health and Exercise Science">
+            </datalist>
+
+            <!-- Membership Type -->
+            <label for="membership">Membership Type:</label>
+
+            <select id="membership" name="membership" required>
+                <option value="">Select a Membership</option>
+                <option value="student">Student Membership</option>
+                <option value="monthly">Monthly Membership</option>
+                <option value="annual">Annual Membership</option>
+            </select>
+
+            <!-- Golf Experience -->
+            <p class="form-heading">Golf Experience:</p>
+
+            <label class="choice">
+                <input
+                    type="radio"
+                    name="experience"
+                    value="beginner"
+                >
+                Beginner
+            </label>
+
+            <label class="choice">
+                <input
+                    type="radio"
+                    name="experience"
+                    value="intermediate"
+                >
+                Intermediate
+            </label>
+
+            <label class="choice">
+                <input
+                    type="radio"
+                    name="experience"
+                    value="advanced"
+                >
+                Advanced
+            </label>
+
+            <!-- Updates -->
+            <label class="choice">
+                <input
+                    type="checkbox"
+                    name="updates"
+                >
+                Send me updates about specials and events.
+            </label>
+
+
+            ></textarea>
+
+            <!-- Buttons -->
+            <div class="form-buttons">
+
+                <input
+                    type="submit"
+                    value="Join Now"
+                >
+
+                <input
+                    type="reset"
+                    value="Clear Form"
+                >
+
+            </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p><strong>Rowan Driving Range</strong></p>
+    <p>Address: 201 Mullica Hill Road, Glassboro, NJ 08028</p>
+    <p>Hours: Monday-Saturday 9:00 AM-9:00 PM | Sunday 10:00 AM-6:00 PM</p>
+    <p>Phone: 856-555-0147</p>
+    <p>Email: info@rowandrivingrange.com</p>
+    <p> 2026 Rowan Driving Range</p>
+<footer>
+
+</html>

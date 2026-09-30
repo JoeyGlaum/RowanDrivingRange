@@ -1,0 +1,282 @@
+/* Rowan Driving Range - Shared CSS */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+header {
+    background-color: #5a2a27;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header h2 {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+nav {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: #5a2a27;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    color: #5a2a27;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 6px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+p {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #999999;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #5a2a27;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #5a2a27;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+
+.rental-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rental-item {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 2px solid #5a2a27;
+    text-align: center;
+}
+
+.rental-item h3 {
+    color: #5a2a27;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #57150b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1,
+header h2 {
+    margin: 5px;
+}
+
+nav
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    color: #57150b;
+}
+
+section > p {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #57150b;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+.form-heading {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.choice {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.choice input {
+    margin-right: 8px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #57150b;
+    color: white;
+}
+
+form input[type="reset"] {
+    background-color: #dddddd;
+}
+
+form input[type="submit"]:hover {
+    background-color: #7a1d10;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    form input[type="submit"],
+    form input[type="reset"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
