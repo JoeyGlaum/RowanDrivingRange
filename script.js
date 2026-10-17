@@ -1,4 +1,4 @@
-// Rowan Driving Range - Membership form JavaScript
+// Rowan Driving Range Joeyglaum- Membership form JavaScript
 const membershipForm = document.getElementById('membershipForm');
 const resultsArea = document.getElementById('resultsArea');
 
